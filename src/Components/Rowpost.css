@@ -1,0 +1,43 @@
+
+.row{
+    background-color: #111;
+}
+
+.rowpst{
+    display: flex;
+   
+    overflow-x: scroll;
+}
+.rowpst::-webkit-scrollbar{
+    display: none;
+}
+
+ .pst{
+    object-fit: contain;
+    max-height: 100px;
+    width: 100%;
+    margin-left: 12px;
+    
+    border-radius: 5px;
+    transition: transform 450ms; 
+}
+.pst:hover{
+    transform: scale(1.08);
+ 
+}
+.pstBig{
+    object-fit: contain;
+    max-height: 150px;
+    width: 100%;
+    margin-left: 13px;
+    
+    border-radius: 10px;
+    transition: transform 450ms; 
+}
+.pstBig:hover{
+    transform: scale(1.06);
+}
+.head{
+    color:whitesmoke;
+    margin-left: 12px;
+}
