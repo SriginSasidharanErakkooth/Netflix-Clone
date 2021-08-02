@@ -17,6 +17,7 @@ function Rowpost(props) {
             const request = await axios.get(props.url)
            
             setMovies(request.data.results);
+            console.log(request.data.results)
             return request;
 
         }

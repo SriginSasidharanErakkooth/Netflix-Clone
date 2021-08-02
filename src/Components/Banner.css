@@ -1,6 +1,7 @@
 banner{
     background-size: cover;
     height:448px;
+    
     object-fit: contain;
     color:white;
     padding-top: 10px;
